@@ -6,10 +6,8 @@ function HelloPlus(props) {
     return ( <
         div >
         <
-        p >
-        Soma: { props.calcNumbers(n1, n2) } <
-        /p> <
-        /div>
+        p > Soma: { props.calcNumbers(n1, n2) } < /p> <
+        /div >
     )
 
 }
